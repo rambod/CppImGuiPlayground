@@ -49,6 +49,7 @@ int main(int, char**) {
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
+        ImGui::ShowDemoWindow();
 
         // Create a window called "Hello, world!" and append into it.
         ImGui::Begin("Hello, world!");

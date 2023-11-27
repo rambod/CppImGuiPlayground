@@ -15,6 +15,7 @@ add_executable(CppImGuiPlayground main.cpp
         imgui-master/imgui.cpp
         imgui-master/imgui_draw.cpp
         imgui-master/imgui_widgets.cpp
+        imgui-master/imgui_demo.cpp
         imgui-master/imgui_tables.cpp)
 
 

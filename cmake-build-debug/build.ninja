@@ -97,6 +97,14 @@ build CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_widgets.cpp.obj: CXX_
   OBJECT_DIR = CMakeFiles\CppImGuiPlayground.dir
   OBJECT_FILE_DIR = CMakeFiles\CppImGuiPlayground.dir\imgui-master
 
+build CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_demo.cpp.obj: CXX_COMPILER__CppImGuiPlayground_unscanned_Debug C$:/Users/Rambod/CLionProjects/CppImGuiPlayground/imgui-master/imgui_demo.cpp || cmake_object_order_depends_target_CppImGuiPlayground
+  DEFINES = -DGLFW_DLL
+  DEP_FILE = CMakeFiles\CppImGuiPlayground.dir\imgui-master\imgui_demo.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Rambod/CLionProjects/CppImGuiPlayground/imgui-master/backends -IC:/Users/Rambod/CLionProjects/CppImGuiPlayground/imgui-master -isystem C:/Users/Rambod/.vcpkg-clion/vcpkg/installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\CppImGuiPlayground.dir
+  OBJECT_FILE_DIR = CMakeFiles\CppImGuiPlayground.dir\imgui-master
+
 build CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_tables.cpp.obj: CXX_COMPILER__CppImGuiPlayground_unscanned_Debug C$:/Users/Rambod/CLionProjects/CppImGuiPlayground/imgui-master/imgui_tables.cpp || cmake_object_order_depends_target_CppImGuiPlayground
   DEFINES = -DGLFW_DLL
   DEP_FILE = CMakeFiles\CppImGuiPlayground.dir\imgui-master\imgui_tables.cpp.obj.d
@@ -113,7 +121,7 @@ build CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_tables.cpp.obj: CXX_C
 #############################################
 # Link the executable CppImGuiPlayground.exe
 
-build CppImGuiPlayground.exe: CXX_EXECUTABLE_LINKER__CppImGuiPlayground_Debug CMakeFiles/CppImGuiPlayground.dir/main.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_glfw.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_draw.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_widgets.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_tables.cpp.obj | C$:/Users/Rambod/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/glfw3dll.lib
+build CppImGuiPlayground.exe: CXX_EXECUTABLE_LINKER__CppImGuiPlayground_Debug CMakeFiles/CppImGuiPlayground.dir/main.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_glfw.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_draw.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_widgets.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_demo.cpp.obj CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_tables.cpp.obj | C$:/Users/Rambod/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/glfw3dll.lib
   FLAGS = -g
   LINK_LIBRARIES = C:/Users/Rambod/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/glfw3dll.lib  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CppImGuiPlayground.dir
