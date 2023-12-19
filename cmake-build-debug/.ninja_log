@@ -1,11 +1,11 @@
 # ninja log v5
 2	86	7227838076292184	CMakeFiles/CppImGuiPlayground.dir/main.cpp.obj	ff4c3ef051faaaec
 11	1238	7227833526669654	CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_opengl3.cpp.obj	b85d6fee6f92f92d
-2	1467	7227833528966037	CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_glfw.cpp.obj	dfb01d62777ca444
+2	1166	7232210831591439	CppImGuiPlayground.exe	f24ad75a1920eab8
 25	1642	7227833530706303	CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_tables.cpp.obj	d6c4ded61c61953f
-86	832	7227833629148313	CppImGuiPlayground.exe	1835c5916f52de1f
+2	1467	7227833528966037	CMakeFiles/CppImGuiPlayground.dir/imgui-master/backends/imgui_impl_glfw.cpp.obj	dfb01d62777ca444
 4	2000	7227833534273817	CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_draw.cpp.obj	cd8aacf138b400c
 21	2208	7227833536314253	CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_widgets.cpp.obj	e10fa664c4647ae4
 6	2761	7227833541861556	CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui.cpp.obj	36478f44792b752b
 3	676	7227840145626317	CMakeFiles/CppImGuiPlayground.dir/imgui-master/imgui_demo.cpp.obj	e6a68b0ca210daff
-677	1520	7227840146901286	CppImGuiPlayground.exe	f24ad75a1920eab8
+3	179	7233773860464454	build.ninja	365087f8618eb18
